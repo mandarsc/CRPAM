@@ -1,0 +1,32 @@
+{
+  "sem": "nonlinear",
+  "p": 15,
+  "n": 100,
+  "expected_degree": 2.0,
+  "train_graphs": 10,
+  "train_datasets": 100,
+  "test_graphs": 20,
+  "max_candidate_size": null,
+  "featurizer": "kme",
+  "blocks": [
+    "regressors",
+    "residuals",
+    "joint"
+  ],
+  "heuristics": [
+    "frequency",
+    "weighted_frequency"
+  ],
+  "enforce_dag": true,
+  "baselines": [
+    "RESIT",
+    "PC",
+    "GES",
+    "LiNGAM",
+    "Random"
+  ],
+  "n_trees": 501,
+  "n_jobs": -1,
+  "seed": 0,
+  "out": "results"
+}
